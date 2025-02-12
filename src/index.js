@@ -1,5 +1,20 @@
-const log4js = require("log4js");
-const logger = log4js.getLogger();
-logger.level = "debug";
+const logger = require('./logger');
+var x = 0;
+let mi_valiable = "Hola";
 
-logger.debug("Some debug messages");
+let PI = 3.1416;
+
+function main(){
+    logger.info('Ejecutando apliación en puerto 3000');
+    logger.debug('Se cargó el modulo log4js');
+    logger.warn('Advertencia se inicio la app en modo de pruebas');
+    logger.error('No se pudo iniciar la app por que falta un archivo.');
+}
+
+function sumar(x, y){
+    return x + y * PI;
+}
+
+main();
+
+module.exports = sumar;

@@ -28,7 +28,7 @@ package_manager/
 │   ├── index.js        # Archivo principal de la aplicación
 │   ├── logger.js       # Configuración de log4js
 │   └── utils/          # Utilidades y funciones auxiliares
-├── tests/              # Archivos de pruebas unitarias con Mocha y Chai
+├── test/              # Archivos de pruebas unitarias con Mocha y Chai
 ├── .gitignore          # Archivos y directorios ignorados por Git
 ├── package.json        # Configuración del proyecto y dependencias
 ├── package-lock.json   # Registro de dependencias exactas
@@ -101,10 +101,10 @@ Las siguientes dependencias se han utilizado en el proyecto:
 
 ## Repositorio
 
-Este proyecto se encuentra alojado en **GitHub Classroom**. Puedes acceder al repositorio [aquí](<URL_DEL_REPOSITORIO>).
+Este proyecto se encuentra alojado en **GitHub Classroom**. Puedes acceder al repositorio [aquí](https://github.com/OPC02/mi-primera-aplicaci-n-con-npm-luramirez19>).
 
 ---
 ## Autor
 
-<Coloca aquí tu nombre y mátricula>
+Luis Antonio Ramírez Martínez
 
